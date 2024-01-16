@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.all{
+    margin: 30px 135px;
+}
 
 /* header styles */
 
-.the-header {
-    margin: 30px 135px;
-}
+
 
 .nav-head {
     display: flex;
@@ -75,6 +75,7 @@ nav li {
 
 /* banner section  */
 .banner {
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,10 +101,116 @@ nav li {
     font-family: Mulish;
     font-weight: 800;
 }
-.dolor{
+
+.dolor {
+    text-align: center;
     color: white;
-font-size: 16px;
-font-family: Mulish;
-font-weight: 400;
-line-height: 26px;
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 64px;
+    margin-top: 24px;
+}
+
+.div-btn{
+    display: flex;
+    background-color:  rgba(255, 255, 255, 0.30);
+    padding: 10px;
+    
+}
+.button {
+    width: 18vh;
+    height: 10vh;
+    margin-left: 24px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+/* main section start here  */
+.container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    
+}
+.read-more-btn{
+    color: white;
+   width: 100px;
+   height:  50px;
+    background-color: #FF5400;
+    border-radius: 8px;
+    border-style: none;
+}
+/* Choose Your Destination */
+.tow-country{
+    column-gap: 20px;
+    display: flex;
+    border-radius: 16px;
+}
+.the-country{
+   
+    background-image: url(../Images/Rectangle\ 5.png);
+    
+    /* display: flex; */
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.Choose-Your-Destination{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20PX;
+   
+}
+.Maldives{
+    margin-top: 30%;
+   text-align:center;
+   color: white;
+}
+.the-country-2{
+
+    background-image: url(../Images/Rectangle\ 8.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+/* image-collage section  */
+.Srilanka{
+    background-image: url(../Images/Rectangle\ 5.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.kasmir{
+    background-image: url(../Images/Rectangle\ 9.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.tow-country-2{
+    column-gap: 20px;
+    display: flex;
+    border-radius: 16px;
+}
+.the-country-are{
+
+   background-image: url(../Images//Rectangle\ 6.png);
+   width: 374px;
+   height: 286px;
+   background-repeat: no-repeat;
+}
+.north-america{
+    background-image: url(../Images/Rectangle\ 7.png);
+    width: 474px;
+   height: 286px;
+   background-repeat: no-repeat;
+}
+.Kashmir{
+    background-image: url(../Images/Rectangle\ 9.png);
+    width: 374px;
+   height: 286px;
+   background-repeat: no-repeat;
 }
