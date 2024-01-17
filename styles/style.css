@@ -194,6 +194,8 @@ nav li {
     column-gap: 20px;
     display: flex;
     border-radius: 16px;
+    display: grid;
+    /* grid-template-columns: 3fr; */
 }
 .the-country-are{
 
@@ -213,4 +215,31 @@ nav li {
     width: 374px;
    height: 286px;
    background-repeat: no-repeat;
+}
+/* next section  */
+.price{
+    justify-content: center;
+   border-radius: 5px solid acua ;
+}
+
+
+.why-choose-us{
+    text-align: center;
+    gap: ;
+}
+
+.the-servises{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+.Deals{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.simple{
+    display: flex;
+    text-align: justify;
 }
