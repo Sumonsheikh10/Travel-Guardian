@@ -243,3 +243,18 @@ nav li {
     display: flex;
     text-align: justify;
 }
+.news{
+    display: flex;
+}
+.input-container{
+    justify-content: center;
+}
+.college{
+display: flex;
+}
+.travel-and{
+    display: flex;
+}
+.footer{
+   justify-content: center;
+}
